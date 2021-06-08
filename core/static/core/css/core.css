@@ -1,0 +1,39 @@
+/* Font */
+.st-font {
+  font-family: 'Dancing Script', cursive;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.container-fluid {
+  min-height: 100%;
+}
+
+/* Services Icons */
+.i-color {
+  color: rgb(0, 255, 76);
+}
+
+/* Services Subtitles */
+
+.ss-color {
+  color: whitesmoke;
+}
+
+a.nav-link {
+  color: whitesmoke;
+}
+
+a.nav-link:hover {
+  color: black;
+  background-color: bisque;
+}
+
+a.nav-link.active {
+  color: black;
+  background-color: rgb(187, 255, 0);
+  font-weight: bolder;
+}

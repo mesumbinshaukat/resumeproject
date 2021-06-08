@@ -1,0 +1,52 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<div class="mt-5">
+
+    <div class="text-center">
+        <img src="{% static 'core/images/pic1.jpg' %}" alt="Profile Picture" class="img-thumbnail" width="250px"
+            height="150px">
+    </div>
+
+
+    <div class="text-light mt-5 mx-5 text-justify">
+        <h1 class="fw-bold st-font">Hello,</h1>
+        <div class="px-4" style="line-height:2rem;">
+            <p style="text-indent:60px;">I'm <b class="text-danger">Mesum Bin Shaukat</b>, from Karachi, Pakistan. I'm Full-Stack Developer and I have 2 years of experience in web development. I have some goals to accomplish. To accomplish those goals I have to prove myself as a young developer. I'm only <span class="text-danger fw-bold">16 years old</span>. I can do front-end and back-end stuff, very well without any doubt. I have assorts of skills pertaining to tech field. I'm very glad that I have knowledge in this fantastic field and I can serve my nation and myself. My skills are mentioned below: </p>
+            {% comment %} <h4 class="fw-bold text-info">Skills: </h4>
+            <ul>
+                <li>WordPress</li>
+                <li>Elementor</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+                <li>React.JS</li>
+                <li>Materialize CSS</li>
+                <li>JQuery</li>
+                <li>Python</li>
+                <li>Django</li>
+                <li>C#</li>
+                <li>Game Development (Unity 3D)</li>
+                <li>MongoDB</li>
+                <li>Mocha</li>
+                <li>GitHub</li>
+                <li>Bootstrap</li>
+                <li>Debugging</li>
+                <li>Adobe XD</li>
+                <li>Adobe Photoshop</li>
+                <li>Adobe Premiere Pro</li>
+                <li>Adobe After Effects</li>
+                <li>Adobe Illustrator</li>
+            </ul> {% endcomment %}
+        </div>
+    </div>
+    <div class="text-center">
+            <a href="{% url 'contact' %}" class="btn btn-outline-warning my-3 me-5">Hire Me</a>
+            <a href="{% url 'contact' %}" class="btn btn-outline-info my-3">Contact Me</a>
+    </div>
+</div>
+
+{% endblock content %}
